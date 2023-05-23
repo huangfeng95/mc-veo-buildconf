@@ -17,7 +17,7 @@ package_sets:
 layout:
    - rock.core
    - e2calib
-   - mc-veo
+   - mcveo
 
 # Ignoring packages: same principle than package exclusion, but this time the
 # packages are considered to be installed and up-to-date. This is useful if you
