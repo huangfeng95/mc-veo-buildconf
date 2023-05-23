@@ -1,2 +1,2 @@
 # MC-VEO-buildconf
-Build bootstrapping for the Event and Frame based Visual Odometry (MC-VEO)
+Build bootstrapping for the Motion Compensated Visual-Event Odometry (MC-VEO)
