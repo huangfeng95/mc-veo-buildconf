@@ -141,11 +141,11 @@ It does not matter the order you run the scripts, visualization or running. The 
 Log Files and Conversion to Rosbag
 -------
 
-The log files are created in the `/mc-veo/dev/bundles/mc-veo/tmp` folder by default (You can change the folder [here](https://github.com/huangfeng95/bundles-mc-veo/blob/0952ca893178efdaefdde72a93672eeccedfadef/config/app.yml#L12)). The log files are named in a folder as `/tmp/date`, e.g.: `/tmp/20220401-1015` MC-VEO is not real time. You can convert the log file to the correct time by running the following command in your log folder
+The log files are created in the `mc-veo/dev/bundles/mc-veo/tmp` folder by default (You can change the folder [here](https://github.com/huangfeng95/bundles-mc-veo/blob/0952ca893178efdaefdde72a93672eeccedfadef/config/app.yml#L12)). The log files are named in a folder as `tmp/date`, e.g.: `tmp/20220401-1015` MC-VEO is not real time. You can convert the log file to the correct time by running the following command in your log folder
 ```console
 docker@hjf $ cd mc-veo/dev
 docker@dev $ source env.sh
-docker@dev $ cd .bundles/mc-veo/tmp/20220401-1015
+docker@dev $ cd bundles/mc-veo/tmp/20220401-1015
 docker@20220401-1015 $ rock-convert --use_sample-time mc_veo.0.log 
 ```
 
