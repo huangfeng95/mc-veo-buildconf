@@ -180,12 +180,3 @@ MC-VEO source code is structure as follows:
 * [slam/mc-veo](https://github.com/huangfeng95/slam-mc-veo): this is the MC-VEO C++ library.
 * [slam/orogen/mc-veo](https://github.com/huangfeng95/slam-orogen-mc-veo): this is the Task that builds a class with all the system's functionalities.
 
-Additional Resources on Event Cameras
--------
-* [Event-based Vision Survey](http://rpg.ifi.uzh.ch/docs/EventVisionSurvey.pdf)
-* [List of Event-based Vision Resources](https://github.com/huangfeng95/event-based_vision_resources)
-* [Event Camera Simulator](http://rpg.ifi.uzh.ch/esim)
-* [RPG research page on Event Cameras](http://rpg.ifi.uzh.ch/research_dvs.html)
-* [TUB course](https://sites.google.com/view/guillermogallego/teaching/event-based-robot-vision)
-* [E2Calib: How to Calibrate Your Event Camera](https://github.com/huangfeng95/e2calib)
-* [Event Camera in the CARLA Simulator](https://carla.readthedocs.io/en/latest/ref_sensors/#dvs-camera)
