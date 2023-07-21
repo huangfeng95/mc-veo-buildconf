@@ -180,3 +180,6 @@ MC-VEO source code is structure as follows:
 * [slam/mc-veo](https://github.com/huangfeng95/slam-mc-veo): this is the MC-VEO C++ library.
 * [slam/orogen/mc-veo](https://github.com/huangfeng95/slam-orogen-mc-veo): this is the Task that builds a class with all the system's functionalities.
 
+### Acknowledgements
+- The authors of [EDS](https://github.com/uzh-rpg/eds-buildconf)
+- The authors of [Globally_Aligned_Events](https://github.com/Haram-kim/Globally_Aligned_Events)
